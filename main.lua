@@ -1,5 +1,5 @@
 local Players = game:GetService("Players")
-setclipboard("https://dsc.gg/get-8-bit")
+setclipboard("https://discord.gg/UV8Tsa5k9d")
 local function setUnixTime()
     local unixTime = tick()
     getgenv().startTime = unixTime
@@ -10,7 +10,7 @@ setUnixTime()
 if not getgenv().yetexecuted then
     getgenv().yetexecuted = true
     local success, errorMsg = pcall(function()
-        loadstring(game:HttpGet("https://8bitsforya.vercel.app/api/scripts?script=rivalsv3.lua"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/ezlols/rivals-v3/refs/heads/main/main.lua"))()
     end)
 
     if not success then
