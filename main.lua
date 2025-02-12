@@ -1,5 +1,5 @@
 local Players = game:GetService("Players")
-setclipboard("https://dsc.gg/get-8-bit")
+setclipboard("https://discord.gg/gchpbdpF")
 local function setUnixTime()
     local unixTime = tick()
     getgenv().startTime = unixTime
